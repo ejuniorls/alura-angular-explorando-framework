@@ -15,6 +15,7 @@
       name="pensamento"
       class="input"
       placeholder="Digite o pensamento"
+      [value]="pensamento.conteudo"
     />
 
     <label for="autoria">Autoria ou fonte:</label>
@@ -25,6 +26,7 @@
       name="autoria"
       class="input"
       placeholder="Digite a autoria ou fonte"
+      [value]="pensamento.autoria"
     />
 
     <label for="modelo">Selecione o modelo do card:</label>
@@ -45,8 +47,10 @@
             alt="aspas azuis"
             class=""
           />
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><strong>Aqui vai a autoria</strong></p>
+          <p class="conteudo">{{ pensamento.conteudo }}</p>
+          <p class="autoria">
+            <strong>{{ pensamento.autoria }}</strong>
+          </p>
         </div>
       </div>
 
@@ -66,8 +70,10 @@
             alt="aspas azuis-claras"
             class=""
           />
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><strong>Aqui vai a autoria</strong></p>
+          <p class="conteudo">{{ pensamento.conteudo }}</p>
+          <p class="autoria">
+            <strong>{{ pensamento.autoria }}</strong>
+          </p>
         </div>
       </div>
 
@@ -87,8 +93,10 @@
             alt="aspas verdes"
             class=""
           />
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><strong>Aqui vai a autoria</strong></p>
+          <p class="conteudo">{{ pensamento.conteudo }}</p>
+          <p class="autoria">
+            <strong>{{ pensamento.autoria }}</strong>
+          </p>
         </div>
       </div>
     </div>
