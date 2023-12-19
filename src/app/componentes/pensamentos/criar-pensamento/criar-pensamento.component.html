@@ -15,7 +15,7 @@
       name="pensamento"
       class="input"
       placeholder="Digite o pensamento"
-      [value]="pensamento.conteudo"
+      [(ngModel)]="pensamento.conteudo"
     />
 
     <label for="autoria">Autoria ou fonte:</label>
@@ -26,7 +26,7 @@
       name="autoria"
       class="input"
       placeholder="Digite a autoria ou fonte"
-      [value]="pensamento.autoria"
+      [(ngModel)]="pensamento.autoria"
     />
 
     <label for="modelo">Selecione o modelo do card:</label>
@@ -34,7 +34,13 @@
       <!-- modelo 1 -->
       <div class="radio-modelo">
         <label for="modelo1">
-          <input type="radio" name="modelo-card" id="modelo1" value="modelo1" />
+          <input
+            type="radio"
+            name="modelo-card"
+            id="modelo1"
+            value="modelo1"
+            [(ngModel)]="pensamento.modelo"
+          />
           <div class="custom-radio">
             <span></span>
           </div>
@@ -57,7 +63,13 @@
       <!-- modelo 2 -->
       <div class="radio-modelo">
         <label for="modelo2">
-          <input type="radio" name="modelo-card" id="modelo2" value="modelo2" />
+          <input
+            type="radio"
+            name="modelo-card"
+            id="modelo2"
+            value="modelo2"
+            [(ngModel)]="pensamento.modelo"
+          />
           <div class="custom-radio">
             <span></span>
           </div>
@@ -80,7 +92,13 @@
       <!-- modelo 3 -->
       <div class="radio-modelo">
         <label for="modelo3">
-          <input type="radio" name="modelo-card" id="modelo3" value="modelo3" />
+          <input
+            type="radio"
+            name="modelo-card"
+            id="modelo3"
+            value="modelo3"
+            [(ngModel)]="pensamento.modelo"
+          />
           <div class="custom-radio">
             <span></span>
           </div>
@@ -103,8 +121,12 @@
 
     <!-- botões -->
     <div class="acoes">
-      <button (click)="criarPensamento()" type="button" class="botao">Salvar</button>
-      <button (click)="cancelarPensamento()" type="button" class="botao">Cancelar</button>
+      <button (click)="criarPensamento()" type="button" class="botao">
+        Salvar
+      </button>
+      <button (click)="cancelarPensamento()" type="button" class="botao">
+        Cancelar
+      </button>
     </div>
   </form>
 </section>
