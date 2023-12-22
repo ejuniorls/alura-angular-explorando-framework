@@ -2,27 +2,45 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que vc veio",
-      "autoria": "Nay",
+      "conteudo": "Miss Vanjie, Miss Vanjie, Miss... Vanjie!",
+      "autoria": "Vanessa Vanjie Mateo",
       "modelo": "modelo1"
     },
     {
       "id": 2,
-      "conteudo": "Estudando Angular",
-      "autoria": "Dev Alura",
+      "conteudo": "Your tone seems very pointed right now!",
+      "autoria": "Willam",
       "modelo": "modelo2"
     },
     {
       "id": 3,
-      "conteudo": "Angular é o melhor",
-      "autoria": "Nay",
+      "conteudo": "You're perfect, you're beautiful, you look like Linda Evangelista!",
+      "autoria": "Aja",
       "modelo": "modelo3"
     },
     {
-      "conteudo": "Teste",
-      "autoria": "Edmir",
-      "modelo": "modelo1",
-      "id": 4
+      "id": 3,
+      "conteudo": "Impersonating Beyoncè is not your destiny, child.",
+      "autoria": "RuPaul",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 3,
+      "conteudo": "All tea, no collusion.",
+      "autoria": "The Vivienne",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 3,
+      "conteudo": "I'm roxxy andrews and I'm here to make it clear. I know you love me, baby that's why you brought me here. Was a bitch on season 5 I'm gonna make it right. Give me a sewing challenge and I'll give you what you like. I'm full of tricks, baby just like on halloween. A room full of monsters and it makes me wanna scream. I have to get this right. So you don't waste your time. Not like my comedy I'm killing on this rhyme. I'm gonna show you what I can do ,You're going crazy and seeing two. It's not my fault, you can't blame my game. All these other hoes but they're all the same",
+      "autoria": "Roxxy Andrews",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 3,
+      "conteudo": "It’s very easy to look at the world and think, this is all so cruel and so mean. It’s important to not become bitter from it.",
+      "autoria": "RuPaul ",
+      "modelo": "modelo3"
     }
   ]
 }
